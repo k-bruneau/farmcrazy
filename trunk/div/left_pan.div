@@ -1,0 +1,11 @@
+<ul class="menu">
+<? if($_SESSION['user'] == 1) { ?>
+<li><a href="<? echo $_SERVER['PHP_SELF'] ?>">Lobby</a></li>
+<li><a href="<? echo $_SERVER['PHP_SELF']."?a=ferme" ?>">Ma Ferme</a></li>
+<li><a href="<? echo $_SERVER['PHP_SELF']."?a=account" ?>">Mon Compte</a></li>
+<li><a href="<? echo $_SERVER['PHP_SELF']."?a=logout" ?>">Deconnection</a></li>
+<li><a href="<? echo $_SERVER['PHP_SELF']."?".$_SERVER['QUERY_STRING'] ?>">Actualiser</a></li>
+<? }else{ ?>
+<li><a href="<? echo $_SERVER['PHP_SELF']."?a=logon" ?>">S'inscrire.</a></li>
+<? } ?>
+</ul>

@@ -1,0 +1,34 @@
+method = 'POST' OR 'GET' DEFAULT : 'GET'
+file = void OBLIGATOIRE
+async = true OR false DEFAULT : false
+send = void DEFAULT : null
+out = 'TXT' OR 'XML' DEFAULT : 'TXT'
+timetoexec = temp pour executer la requette DEFAULT 0
+
+onsucess = FUNCTION DE RETOUR 
+start() = methode pour lancer lexecution de la requette
+
+
+exemple :
+
+req = new Ajax();
+req.file = 'index.php';
+req.timetoexec = 1000;
+req.start();
+
+______________________
+
+req = new Ajax();
+req.file = 'index.php';
+req.out = 'XML';
+req.async = true;
+req.start(); 
+______________________
+
+req = new Ajax();
+req.file = 'index.php';
+req.timetoexec = 1000;
+req.onsucess = function (callback) {
+	alert(callback);
+}
+req.start();

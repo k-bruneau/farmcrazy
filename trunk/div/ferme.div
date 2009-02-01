@@ -1,0 +1,10 @@
+<div id="ferme_" class="mid">
+<span class="title">-Ferme-</span>
+<div id="ferme_display">
+<span id="ferme_loading">Chargement<span>
+</div>
+</div>
+<script>
+game = new Game();
+game.load_ferme();
+</script>
