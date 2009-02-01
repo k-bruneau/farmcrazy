@@ -1,0 +1,24 @@
+<div id="account_" class="mid">
+<span class="title">-Mon compte-</span>
+<fieldset>
+<legend>Information personnel</legend>
+<form name="account" id="account">
+<p class="infoac">
+	<label class="labelac" for="login">Login : </label>
+	<input class="valueac" value="<? echo $_SESSION['login'] ?>" id="login" name="login">
+</p>
+<p class="infoac">
+	<label class="labelac" for="mail">Mail : </label>
+	<input class="valueac" value="<? echo $_SESSION['mail'] ?>" id="email" name="mail">
+</p>
+<p class="infoac">
+	<label class="labelac" for="pass">Mot de passe : </label>
+	<input class="valueac" value="******" id="pass" name="pass">
+</p>
+<p>
+	<input type="submit" name="submit" />
+	<input type="reset" name="reset" />
+</p>
+</form>
+</fieldset>
+</div>

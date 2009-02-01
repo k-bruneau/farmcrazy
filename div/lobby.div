@@ -1,0 +1,4 @@
+<div id="lobby_" class="mid">
+<span class="title">-Lobby-</span>
+Bienvenue dans votre lobby <? echo $_SESSION['login'] ?>.
+</div>
