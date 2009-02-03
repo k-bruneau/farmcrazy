@@ -16,20 +16,20 @@ start() = methode pour lancer lexecution de la requette
 
 = Exemple =
 
+==1==
 req = new Ajax();
 req.file = 'index.php';
 req.timetoexec = 1000;
 req.start();
 
-______________________
-
+==2==
 req = new Ajax();
 req.file = 'index.php';
 req.out = 'XML';
 req.async = true;
 req.start(); 
-______________________
 
+==3==
 req = new Ajax();
 req.file = 'index.php';
 req.timetoexec = 1000;
@@ -37,8 +37,8 @@ req.onsucess = function (callback) {
 	alert(callback);
 }
 req.start();
-______________________
 
+==4==
 req = new Ajax();
 req.file = 'index.php';
 req.timetoexec = 1000;
