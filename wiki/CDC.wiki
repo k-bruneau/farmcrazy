@@ -21,7 +21,7 @@ Le joueur est plonger dans le peau d'un fermier débutant ou il devra gagner un 
 ||LOGIN||Page||OK||index.php & Joueur.php||
 ||COMPTE||Page||A Modifier||index.php & Joueur.php||
 ||JOUEUR||Class||A Verifier||Joueur.php||
-||FERME||Page||En cour||Ferme.php||
+||FERME||Class||En cour||Ferme.php||
 
 
 == Scenario ==
