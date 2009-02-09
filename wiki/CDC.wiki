@@ -1,9 +1,9 @@
 #summary Cahier des charges
+#labels Phase-Implementation
 
 = Sommaire =
 
   # *Introduction*
-  # *Besoin*
   # *Scenario*
   # *Gameplay*
   # *Unite*
@@ -14,15 +14,6 @@
 
 Jeux massivement multijoueur jouable par navigateur de gestion de ferme.
 Le joueur est plonger dans le peau d'un fermier débutant ou il devra gagner un maximum de bénéfice et prospérer dans le temps.Il devras éviter les piège de ses concurrent , se défendre contre les condition climatique , garder ses culture et animaux en bonne santé.
-
-== Besoin ==
-||NOM||TYPE||STATUS||FICHIER||
-||INDEX||Page||OK||index.php||
-||LOGIN||Page||OK||index.php & Joueur.php||
-||COMPTE||Page||A Modifier||index.php & Joueur.php||
-||JOUEUR||Class||A Verifier||Joueur.php||
-||FERME||Class||En cour||Ferme.php||
-
 
 == Scenario ==
 
@@ -35,6 +26,8 @@ _Vérification: si le joueur a créer sa ferme_
 
 Page de création: Formulaire dynamique avec vérification des donnée.<br>
 Page ferme : Visualisation de la ferme avec menu action.
+
+Les achat et la gestion des batiments ainsi que des ressources et animaux se fera via des formulaire input ou select.
 
 == Unité ==
 
