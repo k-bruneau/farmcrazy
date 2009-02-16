@@ -31,16 +31,39 @@ Les achat et la gestion des batiments ainsi que des ressources et animaux se fer
 
 == Unité ==
 
-  * Poule
-La poule permet de générer des oeuf.<br>
+  * Poule(M/F)
+La poule permet de générer des oeuf ou de la viande(abatoire).<br>
+Nécessite: Poulailler _nv1_.
+
+  * Vache(M/F)
+La vache permet de générer du lait ou de la viande(abatoire) suivant le parcours du bétail choisie.<br>
+Nécessite: Étable _nv1_.
+
+  * Mouton(M/F)
+Le Mouton permet de generer de la viande(abatoire) et de la laine(aptitude).<br>
 Nécessite:
 
-  * Vache
-La vache permet de générer du lait ou de la viande suivant le parcours du bétail choisie.<br>
-Nécessite:
-
-  * Mouton
-Le Mouton permet de generer de la viande et de la laine(aptitude).<br>
-Nécessite:
+  * Cochon(M/F)
+Le cochon permet de générer exclusivement de la viande(abatoire).
+Nécessite:Porcherie _nv1_.
 
 == Bâtiment ==
+
+  * Poulailler (évolution)
+Indispensable a l'élevage de poule et poulet.<br>
+Nécessite:Bois x 20
+
+  * Étable (évolution)
+Indispensable a l'élevage de vache et taureaux.<br>
+Nécessite:Bois x100
+
+  * Porcherie (évolution)
+Indispensable a l'élevage de cochon et truie.<br>
+Nécessite:Bois x100
+
+== Aptitude ==
+
+  * Dépeçage (évolution)
+Permet de récupérer la peaux ou la fourrure d'un animal.<br>
+Nécessite:1 jour(non réel)
+
